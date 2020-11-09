@@ -26,6 +26,8 @@ h1{
     width:500px;
     height:250px;
     background-color:yellow;
+    position: absolute;
+    left: 0px;
     
 }
 
@@ -35,6 +37,8 @@ h1{
     width:500px;
     height:250px; 
     background-color:rgb(24, 182, 18);
+    position: absolute;
+    right: 0px;
 }
 
 
