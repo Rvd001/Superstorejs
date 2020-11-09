@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kayl.com</title>
+    <link rel="stylesheet" type="text/css", href="code.css"/>
+    <script src="code.js"></script>
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.6.0.min.js"></script>
+    
+</head>
+
+<body onload="initViz();">
+    
+        <button type="button" id = "barChart" onclick="barChart();" value="Bar Chart">Bar Chart</button>
+        <button type="button" id = "bubbleChart" value="Bubble Chart" onclick="BubbleChart();">Bubble Chart</button>
+        <button type="button" id = "boxAndWhisker" onclick="boxAndWhisker();" value="Box and Whisker Plot">Box and Whisker Plot</button>
+        <br>
+        <br>
+        <p id="chartType"></p>
+
+        <br>
+        <!-- paragraph to know the chart being chosen -->
+
+        <div id="filterSelection" style="padding:20px;">
+            <button type="button" id = "West" onclick="westFilter();">West</button>
+            <button type="button" id = "East" onclick="eastFilter();">East</button>
+            <button type="button" id = "South" onclick="southFilter();">South</button>
+        </div>
+        <br>
+        <br> 
+
+        <div id="vizContainer"></div>
+        <!-- This houses the visualization -->
+
+
+        <div id="controls" style="padding:20px;">
+
+
+            <!-- padding is space around an element -->
+
+            <form id="resizeForm">
+                <input type="text" id="resizeWidth" placeholder="Width">
+                <input type="text" id="resizeHeight" placeholder="Height">
+                <button type="button" onClick="vizResize();">Resize</button>
+                <!-- <button type="button" onClick="originalSize();">Original Size</button> -->
+            </form>
+        </div>
+
+
+
+
+</body>
+
+
+
+
+</html>

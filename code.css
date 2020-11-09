@@ -1,0 +1,60 @@
+#vizContainer{
+height: 700px;
+width: 1300px;
+overflow: auto;
+};
+/* 
+h1{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 100px;
+    font-family: "Georgia",'Gill Sans', 'Gill Sans MT','Trebuchet MS',sans-serif;
+
+} */
+
+
+#welcome{
+    position: left;
+    font-family: "Georgia",'Gill Sans', 'Gill Sans MT','Trebuchet MS',sans-serif;
+}
+
+/* 
+#headerImage{
+    height: 50px;
+    width: 50px;
+}
+
+.spacer{
+    height: 50px;
+    background-color: blue;
+}
+
+#textArea{
+    position: absolute;
+    float: right;
+    margin-left: 70%;
+}
+
+#vizArea{
+
+    float: left;
+    width: 60%;
+} */
+
+
+
+#barChart{
+margin: 5px;
+padding: 5px;
+};
+
+#bubbleChart{
+    margin: 5px;
+    padding: 5px;
+    };
+
+#boxAndWhisker{
+    margin: 5px;
+    padding: 5px;
+    };
