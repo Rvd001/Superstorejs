@@ -28,6 +28,7 @@ h1{
     background-color:yellow;
     position: absolute;
     left: 0px;
+    top: 0px;
     
 }
 
@@ -39,6 +40,7 @@ h1{
     background-color:rgb(24, 182, 18);
     position: absolute;
     right: 0px;
+    top: 0px;
 }
 
 
@@ -49,6 +51,8 @@ h1{
     background-color:rgb(130, 18, 182);
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 
