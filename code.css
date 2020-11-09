@@ -47,6 +47,8 @@ h1{
     width:1000px;
     height:250px; 
     background-color:rgb(130, 18, 182);
+    position: absolute;
+    bottom: 0px;
 }
 
 
