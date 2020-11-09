@@ -13,12 +13,18 @@
 
 <body onload="initViz();">
     
-        <button type="button" id = "barChart" onclick="barChart();" value="Bar Chart">Bar Chart</button>
+        <!-- <button type="button" id = "barChart" onclick="barChart();" value="Bar Chart">Bar Chart</button>
         <button type="button" id = "bubbleChart" value="Bubble Chart" onclick="BubbleChart();">Bubble Chart</button>
         <button type="button" id = "boxAndWhisker" onclick="boxAndWhisker();" value="Box and Whisker Plot">Box and Whisker Plot</button>
         <br>
         <br>
-        <p id="chartType"></p>
+        <p id="chartType"></p> -->
+
+        <div style="width:1000px;height:500px; background-color:red;">
+                <div></div>
+                <div style="width:500px;height:250px; background-color:yellow;"></div>
+                <div style="width:500px;height:250px; background-color:rgb(24, 182, 18);"></div>
+        </div>
 
         <br>
         <!-- paragraph to know the chart being chosen -->
@@ -40,12 +46,12 @@
 
             <!-- padding is space around an element -->
 
-            <form id="resizeForm">
+            <!-- <form id="resizeForm">
                 <input type="text" id="resizeWidth" placeholder="Width">
                 <input type="text" id="resizeHeight" placeholder="Height">
                 <button type="button" onClick="vizResize();">Resize</button>
                 <!-- <button type="button" onClick="originalSize();">Original Size</button> -->
-            </form>
+            </form> -->
         </div>
 
 
