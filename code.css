@@ -14,6 +14,30 @@ h1{
 } */
 
 
+#left{
+
+    width:500px;
+    height:250px;
+    background-color:yellow;
+}
+
+
+#right{
+
+    width:500px;
+    height:250px; 
+    background-color:rgb(24, 182, 18);
+}
+
+
+#bottom{
+
+    width:1000px;
+    height:250px; 
+    background-color:rgb(130, 18, 182);
+}
+
+
 #welcome{
     position: left;
     font-family: "Georgia",'Gill Sans', 'Gill Sans MT','Trebuchet MS',sans-serif;
