@@ -13,12 +13,20 @@ h1{
 
 } */
 
+#mainDiv{
+    width:1000px;
+    height:500px; 
+    background-color:red;
+    opacity: 0.2;
+}
+
 
 #left{
 
     width:500px;
     height:250px;
     background-color:yellow;
+    
 }
 
 
