@@ -64,8 +64,13 @@ h1{
     display: flex;
     flex-direction: column;
     width:1200px;
-    height:700px; 
+    height:1000px; 
     border: 2px solid rgb(0, 68, 255);
+}
+
+#filter-background{
+
+    height:150px; 
 }
 
 
@@ -75,6 +80,12 @@ h1{
     border: 2px solid rgb(172, 12, 34);
     /* align-content: flex-end;
     align-items: flex-end; */
+}
+
+
+#sheet-heading-background{
+
+    height:150px; 
 }
 
 
