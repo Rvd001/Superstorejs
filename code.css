@@ -14,7 +14,8 @@ h1{
 } */
 
 #mainDiv{
-    width:1000px;
+    display: flex;
+    width:1200px;
     height:500px; 
     background-color:red;
     opacity: 0.2;
@@ -26,21 +27,23 @@ h1{
     width:500px;
     height:250px;
     background-color:yellow;
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
     top: 0px;
+    /* float: left; */
     
 }
 
-
+ 
 #right{
 
     width:500px;
     height:250px; 
     background-color:rgb(24, 182, 18);
-    position: absolute;
+    /* position: absolute; */
     right: 0px;
     top: 0px;
+    /* float: right; */
 }
 
 
@@ -49,7 +52,7 @@ h1{
     width:1000px;
     height:250px; 
     background-color:rgb(130, 18, 182);
-    position: absolute;
+    /* position: absolute; */
     bottom: 0px;
     left: 0px;
     right: 0px;
