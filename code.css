@@ -63,14 +63,14 @@ h1{
 #whole{
     display: flex;
     flex-direction: column;
-    width:1500px;
+    width:1200px;
     height:700px; 
     border: 2px solid rgb(0, 68, 255);
 }
 
 
 #filters{
-    width:1500px;
+    width:1200px;
     height:350px; 
     border: 2px solid green;
     /* align-content: flex-end;
@@ -79,7 +79,7 @@ h1{
 
 
 #worksheet{
-    width:1500px;
+    width:1200px;
     height:350px; 
     border: 2px solid rgb(235, 252, 0);
     /* align-content: flex-end;
