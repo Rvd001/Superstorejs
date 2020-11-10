@@ -72,7 +72,7 @@ h1{
 #filters{
     width:1200px;
     height:350px; 
-    border: 2px solid green;
+    border: 2px solid rgb(172, 12, 34);
     /* align-content: flex-end;
     align-items: flex-end; */
 }
@@ -85,6 +85,28 @@ h1{
     /* align-content: flex-end;
     align-items: flex-end; */
 }
+
+
+
+#whole > #filters{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.sheet > .fill{
+    border: 2px solid rosybrown;
+}
+
+
+
+
+
+
+
 
 
 
