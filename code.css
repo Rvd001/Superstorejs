@@ -71,6 +71,7 @@ h1{
 #filter-background{
 
     height:150px; 
+    background-color: #00007f;
 }
 
 
@@ -85,7 +86,9 @@ h1{
 
 #sheet-heading-background{
 
-    height:150px; 
+    height:150px;
+    background-color: #00007f;
+
 }
 
 
