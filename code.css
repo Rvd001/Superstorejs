@@ -30,8 +30,8 @@ h1{
     /* background-color:yellow; */
     border: 2px solid yellow;
     /* position: absolute; */
-    left: 0px;
-    top: 0px;
+    /* left: 0px;
+    top: 0px; */
     align-content: flex-start;
     align-items: flex-start;
 
@@ -45,8 +45,8 @@ h1{
     height:250px; 
     /* background-color:rgb(24, 182, 18); */
     /* position: absolute; */
-    right: 0px;
-    top: 0px;
+    /* right: 0px;
+    top: 0px; */
     border: 2px solid green;
     /* float: right; */
     align-content: flex-end;
