@@ -74,6 +74,13 @@ h1{
     background-color: #00007f;
 }
 
+#filter-background > h3{
+    text-decoration-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+}
 
 #filters{
     width:1200px;
@@ -88,6 +95,18 @@ h1{
 
     height:150px;
     background-color: #00007f;
+
+}
+
+
+
+#sheet-heading-background > h3{
+
+text-decoration-color: white;
+font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+font-size: 25px;
+text-align: center;
+font-style: normal;
 
 }
 
