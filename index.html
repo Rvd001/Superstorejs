@@ -56,11 +56,11 @@
                     <div class="fill" id="city">
                         <h3>City</h3>
                         <form>
-                                <input type="checkbox" class="city" id="cAll" name="All City" value="All">
+                                <input type="checkbox" class="city" id="cAll" name="All City" value="All" onclick="city()">
                                 <label for="cAll"> (All) </label><br>
-                                <input type="checkbox" class="city" id="cIbadan" name="Ibadan" value="Ibadan">
+                                <input type="checkbox" class="city" id="cIbadan" name="Ibadan" value="Ibadan" onclick="city()">
                                 <label for="cIbadan"> Ibadan </label><br>
-                                <input type="checkbox" class="city" id="cOthers" name="Others" value="Others">
+                                <input type="checkbox" class="city" id="cOthers" name="Others" value="Others" onclick="city()">
                                 <label for="cOthers"> Others </label>
                         </form>
 
@@ -107,7 +107,7 @@
             </div>
 
             <!-- div for worksheet -->
-            <div class="sheet" id="worksheet"></div>
+            <div class="sheet" id="worksheet" onload="initViz();"></div>
 
 
         </div>

@@ -25,28 +25,77 @@ function initViz() {
 }
 
 
+function addCity(filtervalue){
+
+    activeSheet.applyFilterAsync(
+        "City of Applicant",
+        filtervalue,
+        tableau.FilterUpdateType.ADD
+    )
+};
+
+
+function removeCity(filtervalue){
+
+    activeSheet.applyFilterAsync(
+        "City of Applicant",
+        filtervalue,
+        tableau.FilterUpdateType.REMOVE
+    )
+};
+
+
+function allCity(){
+
+    activeSheet.applyFilterAsync(
+        "City of Applicant", 
+        ["Ibadan", "Others"],
+        tableau.FilterUpdateType.ADD
+    )
+};
+
+
+
+function removeAllCity(){
+
+    activeSheet.applyFilterAsync(
+        "City of Applicant", 
+        ["Ibadan", "Others"],
+        tableau.FilterUpdateType.REMOVE
+    )
+};
+
+
+
 
 function city(){
     var chb = document.getElementsByClassName("city");
         if(chb[0].checked){
             // filter to add checkbox value
             // an array
+
+        return allCity()
         } else{
-            remove the filter
+            // remove the filter
+            return removeAllCity()
+            
         }
 
         if(chb[1].checked){
             // filter to add ibadan filter
-            
+           return addCity(document.getElementById("cIbadan").value)
+           //filtervalue will be the value of the checkbox
         } else{
             // remove ibadan filter
+            return removeCity(document.getElementById("cIbadan").value)
         }
 
         if(chb[2].checked){
             // filter to add other locations
-            
+            return addCity(document.getElementById("cOthers").value)
         } else{
             // remove other location filter
+            return removeCity(document.getElementById("cOthers").value)
         }
 
 }
