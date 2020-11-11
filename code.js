@@ -24,6 +24,42 @@ function initViz() {
     viz = new tableau.Viz(containerDiv, url, options);
 }
 
+
+
+function city(){
+    var chb = document.getElementsByClassName("city");
+        if(chb[0].checked){
+            // filter to add checkbox value
+            // an array
+        } else{
+            remove the filter
+        }
+
+        if(chb[1].checked){
+            // filter to add ibadan filter
+            
+        } else{
+            // remove ibadan filter
+        }
+
+        if(chb[2].checked){
+            // filter to add other locations
+            
+        } else{
+            // remove other location filter
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
 function vizResize() {
     var width = document.getElementById("resizeWidth").value;
     var height = document.getElementById("resizeHeight").value;
