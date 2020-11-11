@@ -68,6 +68,8 @@ h1{
     border: 2px solid rgb(0, 68, 255);
 }
 
+
+/* Add margin/Border or Padding */
 #filter-background{
 
     height:150px; 
@@ -75,11 +77,12 @@ h1{
 }
 
 #filter-background > h3{
-    text-decoration-color: white;
+    
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 25px;
     text-align: center;
     font-style: normal;
+    color: white;
 }
 
 #filters{
@@ -102,11 +105,12 @@ h1{
 
 #sheet-heading-background > h3{
 
-text-decoration-color: white;
+
 font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 font-size: 25px;
 text-align: center;
 font-style: normal;
+color: white;
 
 }
 
