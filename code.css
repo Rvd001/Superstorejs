@@ -74,6 +74,9 @@ h1{
 
     height:150px; 
     background-color: #00007f;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
 
 }
 
@@ -85,6 +88,7 @@ h1{
     font-style: normal;
     color: white;
     align-items: center;
+  
 }
 
 #filters{
@@ -100,6 +104,9 @@ h1{
 
     height:150px;
     background-color: #00007f;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
 
 }
 
