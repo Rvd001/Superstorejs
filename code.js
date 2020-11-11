@@ -6,8 +6,8 @@ var activeSheet;
 
 function initViz() {
     var containerDiv = document.getElementById("worksheet"),
-        url = "https://public.tableau.com/views/JavaScriptProjectWorkbook/BubbleChart",
-        // url = "https://public.tableau.com/views/JavaScriptProjectWorkbook/Bar",
+        // url = "https://public.tableau.com/views/JavaScriptProjectWorkbook/BubbleChart",
+        url = "https://public.tableau.com/views/JavaScriptProjectWorkbook/Bar",
         options = {
             hideTabs: true,
             onFirstInteractive: function ()
