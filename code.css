@@ -157,7 +157,9 @@ h3{
 }
 
 
-
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  }
 
 
 #welcome{
