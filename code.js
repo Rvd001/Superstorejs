@@ -24,6 +24,8 @@ function initViz() {
     viz = new tableau.Viz(containerDiv, url, options);
 }
 
+//City
+
 
 function addCity(filtervalue){
 
@@ -99,6 +101,116 @@ function city(){
         }
 
 }
+
+
+
+
+
+//Region Filter
+
+
+function addRegion(filtervalue){
+
+    activeSheet.applyFilterAsync(
+        "Region",
+        filtervalue,
+        tableau.FilterUpdateType.ADD
+    )
+};
+
+
+function removeRegion(filtervalue){
+
+    activeSheet.applyFilterAsync(
+        "Region",
+        filtervalue,
+        tableau.FilterUpdateType.REMOVE
+    )
+};
+
+
+function allRegion(){
+
+    activeSheet.applyFilterAsync(
+        "Region", 
+        ["Central", "East", "South", "West"],
+        tableau.FilterUpdateType.ADD
+    )
+};
+
+
+
+function removeAllRegion(){
+
+    activeSheet.applyFilterAsync(
+        "Region", 
+        ["Central", "East", "South", "West"],
+        tableau.FilterUpdateType.REMOVE
+    )
+};
+
+
+
+
+
+
+
+
+//Checking Logic Function
+
+function region(){
+    var chb = document.getElementsByClassName("region");
+        if(chb[0].checked){
+   
+        return allRegion()
+        
+        } else{
+      
+            return removeAllRegion()
+            
+        }
+
+        if(chb[1].checked){
+      
+           return addRegion(document.getElementById("rCentral" ).value)
+        
+        } else{
+           
+            return removeRegion(document.getElementById("rCentral").value)
+        }
+
+        if(chb[2].checked){
+           
+            return addRegion(document.getElementById("rEast").value)
+        } else{
+        
+            return removeRegion(document.getElementById("rEast").value)
+        }
+
+        if(chb[3].checked){
+         
+            return addRegion(document.getElementById("rSouth").value)
+        } else{
+    
+            return removeRegion(document.getElementById("rSouth").value)
+        } 
+        
+        if(chb[4].checked){
+        
+            return addRegion(document.getElementById("rWest").value)
+        } else{
+     
+            return removeRegion(document.getElementById("rWest").value)
+        }         
+
+}
+
+
+
+
+
+
+
 
 
 

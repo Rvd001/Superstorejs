@@ -95,7 +95,21 @@
                     </div>
 
                     <div class="fill" id="age">
-                            <h3>Age</h3>
+                            <!-- <h3>Age</h3> -->
+                            <h3>Region</h3>
+                            <form>
+                                <input type="checkbox" class="region" id="rAll" name="All City" value="All" onclick="region()">
+                                <label for="rAll"> (All) </label><br>
+                                <input type="checkbox" class="region" id="rCentral" name="Central" value="Central" onclick="region()">
+                                <label for="rCentral"> Central </label><br>
+                                <input type="checkbox" class="region" id="rEast" name="East" value="East" onclick="region()">
+                                <label for="rEast"> East </label><br>
+                                <input type="checkbox" class="region" id="rSouth" name="South" value="South" onclick="region()">
+                                <label for="rSouth"> South </label><br>
+                                <input type="checkbox" class="region" id="rWest" name="West" value="West" onclick="region()">
+                                <label for="rWest"> West </label>
+                        </form>
+
                     </div>
 
             </div>
@@ -107,7 +121,7 @@
             </div>
 
             <!-- div for worksheet -->
-            <div class="sheet" id="worksheet" onload="initViz();"></div>
+            <div class="sheet" id="worksheet"></div>
 
 
         </div>
